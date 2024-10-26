@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const People = ( { people, setPeople } ) => {
 
-    // Estado para gfestionar el Id de la persona
+  // Estado para gfestionar el Id de la persona
   const [ editingId, setEditingId] =useState(null);
 
   // Estado para establecer si se está editando a una persona
@@ -129,15 +129,15 @@ export const People = ( { people, setPeople } ) => {
           <form>
             <div>
               <label htmlFor="name">Nombres</label>
-              <input type="text" name="name" value={editedPerson.name} required onChange={handleChange}/>
+              <input className="form-control" type="text" name="name" value={editedPerson.name} required onChange={handleChange}/>
             </div>
             <div>
               <label htmlFor="role">Rol</label>
-              <input type="text" name="role" value={editedPerson.role} required onChange={handleChange}/>
+              <input className="form-control" type="text" name="role" value={editedPerson.role} required onChange={handleChange}/>
             </div>
             <div>
               <label htmlFor="img">Avatar</label>
-              <input type="text" name="img" value={editedPerson.img} required onChange={handleChange}/>
+              <input className="form-control" type="text" name="img" value={editedPerson.img} required onChange={handleChange}/>
             </div>
 
             <div className="mt-2 text-center">
