@@ -19,7 +19,7 @@ function App() {
     },
     {
       id: 3,
-      name: "Karen Steffany Colón",
+      name: "Karen Steffany",
       role: "Frontend Developer",
       img: "https://bootdey.com/img/Content/avatar/avatar3.png"
     }
